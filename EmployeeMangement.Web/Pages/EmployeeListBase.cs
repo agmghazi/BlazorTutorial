@@ -25,7 +25,7 @@ namespace EmployeeMangement.Web.Pages
                 LastName = "Ghazi",
                 Email = "aaa@gmail.com",
                 DateofBirth = new DateTime(1992, 7, 1),
-                Department = new Department { DepartmentId = 1, DepartmentName = "GIS" },
+                DepartmentId = 1,
                 Gender = Gender.Male,
                 PhotoPath = "Images/1.jpg"
             };
@@ -36,7 +36,7 @@ namespace EmployeeMangement.Web.Pages
                 LastName = "Ghazi",
                 Email = "bbb@gmail.com",
                 DateofBirth = new DateTime(1996, 9, 1),
-                Department = new Department { DepartmentId = 2, DepartmentName = "Web" },
+                DepartmentId = 2,
                 Gender = Gender.Male,
                 PhotoPath = "Images/2.jpg"
             };
@@ -47,7 +47,7 @@ namespace EmployeeMangement.Web.Pages
                 LastName = "Ghazi",
                 Email = "sss@gmail.com",
                 DateofBirth = new DateTime(2002, 10, 1),
-                Department = new Department { DepartmentId = 1, DepartmentName = "GIS" },
+                DepartmentId = 1,
                 Gender = Gender.Male,
                 PhotoPath = "Images/3.jpg"
             };
@@ -58,7 +58,7 @@ namespace EmployeeMangement.Web.Pages
                 LastName = "Abdo",
                 Email = "mmm@gmail.com",
                 DateofBirth = new DateTime(1995, 7, 1),
-                Department = new Department { DepartmentId = 1, DepartmentName = "GIS" },
+                DepartmentId = 2,
                 Gender = Gender.Male,
                 PhotoPath = "Images/4.jpg"
             };
